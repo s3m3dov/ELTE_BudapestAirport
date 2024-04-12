@@ -74,7 +74,6 @@ class BudapestAirport:
 
 if __name__ == "__main__":
     airport = BudapestAirport()
-    data = airport.data
     print(airport.flights_to_Frankfurt)
     print(airport.flight_with_most_passengers)
     print(airport.first_flight_with_passengers_less_than_100)
